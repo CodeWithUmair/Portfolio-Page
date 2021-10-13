@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<title>CodeWithUmair-Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Montserrat", sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: #222;
+    }
+
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+    #welcome-section {
+        height: 100%;
+    }
+    .w3-half {
+        font-size: 20px;
+    }
+</style>
+
+<body class="w3-black">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav id="navbar" class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+        <!-- Avatar image in top left corner -->
+        
+        <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+            <p>HOME</p>
+            <i class="fa fa-home w3-xxlarge"></i>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-eye w3-xxlarge"></i>
+            <p>PROJECTS</p>
+        </a>
+        <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+            <i class="fa fa-envelope w3-xxlarge"></i>
+            <p>CONTACT</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+            <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+            <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">PHOTOS</a>
+            <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+            <section id="welcome-section">
+            <h1>CodewithUmair</h1>
+            <p>Web Designer.</p>
+            <img src="https://previews.123rf.com/images/dstarky/dstarky1701/dstarky170101187/69424051-coding-icon-or-logo-in-modern-line-style-high-quality-black-outline-pictogram-for-web-site-design-an.jpg" alt="Code" class="w3-image" width="519" height="600">
+            </section>
+        </header>
+
+        <!-- About Section -->
+        <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+            <h2 class="w3-text-light-grey">My Name</h2>
+            <hr style="width:200px" class="w3-opacity">
+            <p>Some text about me. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+        </div>
+
+        <!-- Portfolio Section -->
+        <div class="w3-padding-64 w3-content" id="projects">
+            <h2 class="w3-text-light-grey">Projects</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <!-- Grid for photos -->
+            <section id="projects">
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half">
+                    <a href="https://codewithumair.github.io/tribute-page-for-Muhamad_Ali-Jinnah/" class="project-tile" target="_blank">
+                    Tribute-page-for-Muhamad-Ali-Jinnah
+                    </a><br>
+                    <a href="https://codewithumair.github.io/Survey-Form/" class="project-tile" target="_blank">
+                        Survey-Form
+                    </a><br>
+                    <a href="https://codewithumair.github.io/Product-Landing-Page/" class="project-tile" target="_blank">
+                        Product-Landing-Page
+                    </a><br>
+                    <a href="https://codewithumair.github.io/Technical-Documentation-Page/" class="project-tile" target="_blank">
+                        Technical-Documentation-Page
+                    </a><br>
+                </div>
+                </section>
+                <!-- End photo grid -->
+            </div>
+            <!-- End Portfolio Section -->
+        </div>
+
+        <!-- Contact Section -->
+        <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+            <h2 class="w3-text-light-grey">Contact Me</h2>
+            <hr style="width:200px" class="w3-opacity">
+
+            <div class="w3-section">
+                <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Karachi, Pakistan</p>
+                <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +92 316 8946190</p>
+                <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: codewithumair@gmail.com</p>
+            </div><br>
+
+        </div>
+
+        <!-- Footer -->
+        <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+            <a href="https://www.freecodecamp.org/codewithumair" target="_blank" id="profile-link">
+                <i class="fa fa-free-code-camp w3-hover-opacity"></i>
+            </a>
+            <a href="https://github.com/CodeWithUmair" target="_blank" id="profile-link">
+                <i class="fa fa-github w3-hover-opacity"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/muhammad-umair-30b32721a/" target="_blank" id="profile-link">
+                <i class="fa fa-linkedin w3-hover-opacity"></i>
+            </a>
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank"
+                    class="w3-hover-text-green">w3.css</a></p>
+            <!-- End footer -->
+        </footer>
+
+        <!-- END PAGE CONTENT -->
+    </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
